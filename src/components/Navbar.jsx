@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { BiSolidSun, BiSolidMoon } from "react-icons/bi";
 import { HiMenuAlt3, HiMenuAlt1 } from "react-icons/hi";
-import ResponsiveMenu from "../components/ResponsiveMenu";
+import ResponsiveMenu from "./ResponsiveMenu";
 import { NavLink, useLocation } from "react-router-dom";
 import {
   FaFacebook,
