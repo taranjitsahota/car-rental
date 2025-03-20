@@ -200,10 +200,10 @@ const Home = ({ theme }) => {
           <p className="text-lg md:text-xl text-gray-300 mb-8 max-w-2xl mx-auto drop-shadow-md">
             Explore Goa with our reliable car rentals. Book now!
           </p>
-          <div className="container flex items-center justify-center gap-4">
+          <div className="container mx-auto px-4 flex flex-col sm:flex-row items-center justify-center gap-4 py-4">
             <a
               href="tel:+918104535322"
-              className="flex items-center gap-2 bg-orange-500 hover:bg-orange-600 text-white py-3 px-6 rounded-xl font-semibold shadow-lg hover:shadow-xl transition duration-300"
+              className="w-full sm:w-auto flex items-center justify-center gap-2 bg-orange-500 hover:bg-orange-600 text-white py-3 px-6 rounded-xl font-semibold shadow-lg hover:shadow-xl transition duration-300"
             >
               <FaPhone className="text-white text-lg" />
               Call Now
@@ -212,7 +212,7 @@ const Home = ({ theme }) => {
               href="https://wa.me/918104535322"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-2 bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white py-3 px-6 rounded-xl font-semibold shadow-lg hover:shadow-xl transition duration-300 hover:cursor-pointer"
+              className="w-full sm:w-auto flex items-center justify-center gap-2 bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white py-3 px-6 rounded-xl font-semibold shadow-lg hover:shadow-xl transition duration-300"
             >
               <FaWhatsapp className="text-white text-lg" />
               WhatsApp
