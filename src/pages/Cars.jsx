@@ -1,28 +1,29 @@
 import React from "react";
 import whiteCar from "../assets/images/image8.jpg";
 import oceanview from "../assets/images/image25.jpg";
-import hondacity from "../assets/indiancars/hondacity.webp.jpg";
-import fortuner from "../assets/indiancars/fortuner.png.jpg";
-import Ertiga from "../assets/indiancars/Ertiga.webp.jpg";
-import creta from "../assets/indiancars/creta.png.jpg";
-import bmw from "../assets/indiancars/bmw.webp.jpg";
-import baleno from "../assets/indiancars/baleno.webp.jpg";
-import audi from "../assets/indiancars/audi.webp.jpg";
-import alcazar from "../assets/indiancars/alcazar.png.jpg";
-import thar from "../assets/indiancars/thar.png.jpg";
-import swift from "../assets/indiancars/swift.png.jpg";
-import mghector from "../assets/indiancars/mg-hector.png.jpg";
-import kia from "../assets/indiancars/kia.png.jpg";
-import innovahycross from "../assets/indiancars/innova-hycross.png.jpg";
-import innovacrysta from "../assets/indiancars/innova-crysta.webp.jpg";
-import innovacrysta1 from "../assets/indiancars/innova-crysta.png.jpg";
-import innova from "../assets/indiancars/innova.png.jpg";
+import hondacity from "../assets/indiancars/hondacity.webp";
+import fortuner from "../assets/indiancars/fortuner.png";
+import Ertiga from "../assets/indiancars/Ertiga.webp";
+import creta from "../assets/indiancars/creta.png";
+import bmw from "../assets/indiancars/bmw.webp";
+import baleno from "../assets/indiancars/baleno.webp";
+import audi from "../assets/indiancars/audi.webp";
+import alcazar from "../assets/indiancars/alcazar.png";
+import thar from "../assets/indiancars/thar.png";
+import swift from "../assets/indiancars/swift.png";
+import mghector from "../assets/indiancars/mg-hector.png";
+import kia from "../assets/indiancars/kia.png";
+import innovahycross from "../assets/indiancars/innova-hycross.png";
+import innovacrysta from "../assets/indiancars/innova-crysta.webp";
+import innovacrysta1 from "../assets/indiancars/innova-crysta.png";
+import innova from "../assets/indiancars/innova.png";
 import i20 from "../assets/indiancars/i20.png";
-import i10grand from "../assets/indiancars/i10grand.webp.png.jpg";
-import i10 from "../assets/indiancars/i10-grand.png.png.jpg";
+import i10grand from "../assets/indiancars/i10grand.webp";
+import i10 from "../assets/indiancars/i10-grand.png";
 import wagonR from "../assets/indiancars/wagonR.png";
 import verna from "../assets/indiancars/verna.png";
 import venue from "../assets/indiancars/venue.png";
+import mercedes from "../assets/indiancars/mercedes.png";
 
 
 
@@ -32,7 +33,7 @@ import { FaPhone, FaCalendarAlt, FaWhatsapp } from "react-icons/fa";
 const carList = [
   {
     name: "Swift",
-    image: whiteCar,
+    image: swift,
     Manual: "1100/-",
     Automatic: "1400/-",
     Fueltype: "Petrol/Diesel",
@@ -42,7 +43,7 @@ const carList = [
   },
   {
     name: "Baleno",
-    image: whiteCar,
+    image: baleno,
     Manual: "1200/-",
     Automatic: "1500/-",
     Fueltype: "Petrol/Diesel",
@@ -52,7 +53,7 @@ const carList = [
   },
   {
     name: "WagonR",
-    image: whiteCar,
+    image: wagonR,
     Manual: "900/-",
     Automatic: "1100/-",
     Fueltype: "Petrol/Diesel",
@@ -62,7 +63,7 @@ const carList = [
   },
   {
     name: "Thar",
-    image: whiteCar,
+    image: thar,
     Manual: "3000/-",
     Automatic: "3500/-",
     Fueltype: "Petrol/Diesel",
@@ -72,7 +73,7 @@ const carList = [
   },
   {
     name: "Venue",
-    image: whiteCar,
+    image: venue,
     Manual: "2000/-",
     Automatic: "2500/-",
     Fueltype: "Petrol/Diesel",
@@ -81,18 +82,8 @@ const carList = [
     aosDelay: "0",
   },
   {
-    name: "I10",
-    image: whiteCar,
-    Manual: "1000/-",
-    Automatic: "1200/-",
-    Fueltype: "Petrol/Diesel",
-    Transmission: "Auto/Manual",
-    Passengers: "5 Person",
-    aosDelay: "0",
-  },
-  {
     name: "Verna",
-    image: whiteCar,
+    image: verna,
     Manual: "1800/-",
     Automatic: "2000/-",
     Fueltype: "Petrol/Diesel",
@@ -102,7 +93,7 @@ const carList = [
   },
   {
     name: "Kia",
-    image: whiteCar,
+    image: kia,
     Manual: "2000/-",
     Automatic: "3000/-",
     Fueltype: "Petrol/Diesel",
@@ -111,18 +102,8 @@ const carList = [
     aosDelay: "0",
   },
   {
-    name: "I20",
-    image: whiteCar,
-    Manual: "1200/-",
-    Automatic: "1500/-",
-    Fueltype: "Petrol/Diesel",
-    Transmission: "Auto/Manual",
-    Passengers: "5 Person",
-    aosDelay: "0",
-  },
-  {
     name: "I10 Grand",
-    image: whiteCar,
+    image: i10grand,
     Manual: "1100/-",
     Automatic: "1300/-",
     Fueltype: "Petrol/Diesel",
@@ -131,8 +112,38 @@ const carList = [
     aosDelay: "0",
   },
   {
+    name: "I10",
+    image: i10,
+    Manual: "1000/-",
+    Automatic: "1200/-",
+    Fueltype: "Petrol/Diesel",
+    Transmission: "Auto/Manual",
+    Passengers: "5 Person",
+    aosDelay: "0",
+  },
+  {
+    name: "I20",
+    image: i20,
+    Manual: "1200/-",
+    Automatic: "1500/-",
+    Fueltype: "Petrol/Diesel",
+    Transmission: "Auto/Manual",
+    Passengers: "5 Person",
+    aosDelay: "0",
+  },
+  {
+    name: "Honda City",
+    image: hondacity,
+    Manual: "2000/-",
+    Automatic: "2200/-",
+    Fueltype: "Petrol/Diesel",
+    Transmission: "Auto/Manual",
+    Passengers: "5 Person",
+    aosDelay: "0",
+  },
+  {
     name: "Creta",
-    image: whiteCar,
+    image: creta,
     Manual: "2000/-",
     Automatic: "3000/-",
     Fueltype: "Petrol/Diesel",
@@ -142,7 +153,7 @@ const carList = [
   },
   {
     name: "MG Hector",
-    image: whiteCar,
+    image: mghector,
     Manual: "3500/-",
     Automatic: "4500/-",
     Fueltype: "Petrol/Diesel",
@@ -152,7 +163,7 @@ const carList = [
   },
   {
     name: "Alcazar",
-    image: whiteCar,
+    image: alcazar,
     Manual: "3500/-",
     Automatic: "4000/-",
     Fueltype: "Petrol/Diesel",
@@ -162,7 +173,7 @@ const carList = [
   },
   {
     name: "Ertiga",
-    image: whiteCar,
+    image: Ertiga,
     Manual: "1100/-",
     Automatic: "1400/-",
     Fueltype: "Petrol/Diesel",
@@ -172,7 +183,7 @@ const carList = [
   },
   {
     name: "Fortuner",
-    image: whiteCar,
+    image: fortuner,
     Manual: "4000/-",
     Automatic: "5000/-",
     Fueltype: "Petrol/Diesel",
@@ -182,7 +193,7 @@ const carList = [
   },
   {
     name: "Innova",
-    image: whiteCar,
+    image: innova,
     Manual: "2000/-",
     Automatic: "3000/-",
     Fueltype: "Petrol/Diesel",
@@ -191,8 +202,8 @@ const carList = [
     aosDelay: "0",
   },
   {
-    name: "Hycross",
-    image: whiteCar,
+    name: "Innova Hycross",
+    image: innovahycross,
     Manual: "3500/-",
     Automatic: "4000/-",
     Fueltype: "Petrol/Diesel",
@@ -202,7 +213,7 @@ const carList = [
   },
   {
     name: "Innova Crysta",
-    image: whiteCar,
+    image: innovacrysta,
     Manual: "2500/-",
     Automatic: "3300/-",
     Fueltype: "Petrol/Diesel",
@@ -211,8 +222,8 @@ const carList = [
     aosDelay: "0",
   },
   {
-    name: "Mercedes-Benz",
-    image: whiteCar,
+    name: "Mercedes-Benz-CLA",
+    image: mercedes,
     Manual: "13000/-",
     Automatic: "16000/-",
     Fueltype: "Petrol/Diesel",
@@ -222,7 +233,7 @@ const carList = [
   },
   {
     name: "Audi A4",
-    image: whiteCar,
+    image: audi,
     Manual: "13000/-",
     Automatic: "16000/-",
     Fueltype: "Petrol/Diesel",
@@ -232,7 +243,7 @@ const carList = [
   },
   {
     name: "BMW 5 Series",
-    image: whiteCar,
+    image: bmw,
     Manual: "8500/-",
     Automatic: "10500/-",
     Fueltype: "Petrol/Diesel",
@@ -240,16 +251,6 @@ const carList = [
     Passengers: "5 Person",
     aosDelay: "0",
   },
-  // {
-  //   name: "Thar",
-  //   image: whiteCar,
-  //   Manual: "1100/-",
-  //   Automatic: "1400/-",
-  //   Fueltype: "Petrol/Diesel",
-  //   Transmission: "Auto/Manual",
-  //   Passengers: "5 Person",
-  //   aosDelay: "0",
-  // },
   // {
   //   name: "Thar",
   //   image: whiteCar,
@@ -402,8 +403,8 @@ const CarList = ({ theme }) => {
       <div
         className={
           theme == "dark"
-            ? "dark:bg-black dark:text-white py-6 px-22 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-10"
-            : "py-6 px-22 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-10"
+            ? "dark:bg-black dark:text-white py-6 px-22 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-12"
+            : "py-6 px-32 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-12"
         }
       >
         {carList.map((data) => (
