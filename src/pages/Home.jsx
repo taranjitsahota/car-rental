@@ -1,9 +1,9 @@
 import React, { useState, useEffect, useRef } from "react";
 import darkthemeimg from "../assets/images/image1.jpg";
 import whitethemeimg from "../assets/images/image21.jpg";
-import whiteCar from "../assets/images/image3.webp";
-import car2 from "../assets/images/image8.jpg";
-import car3 from "../assets/images/image8.jpg";
+import i20 from "../assets/indiancars/i20.png";
+import thar from "../assets/indiancars/thar.png";
+import fortuner from "../assets/indiancars/fortuner.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { FaStar, FaArrowRight } from "react-icons/fa";
