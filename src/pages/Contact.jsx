@@ -16,7 +16,7 @@ const Contact = ({ theme }) => {
       className={
         theme == "dark"
           ? "py-28 bg-black text-white"
-          : "py-28 bg-gradient-to-b from-white via-neutral-100 to-white text-gray-900"
+          : "py-28 bg-gradient-to-b from-orange-50 to-white text-gray-900"
       }
     >
       <div className="container mx-auto px-4">
