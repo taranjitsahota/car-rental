@@ -272,7 +272,7 @@ const Home = ({ theme }) => {
                   <img
                     src={data.image}
                     alt={data.name}
-                    className="w-full h-44 object-cover transition-transform duration-700 rounded-t-2xl hover:scale-110"
+                    className="w-full h-56 object-cover transition-transform duration-700 rounded-t-2xl hover:scale-110"
                   />
                   <span className="absolute top-4 left-4 bg-gradient-to-r from-orange-500 via-pink-500 to-red-400 text-white px-4 py-1 rounded-full text-sm font-semibold shadow-xl">
                     ₹ {data.Manual}
