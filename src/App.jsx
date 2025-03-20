@@ -54,15 +54,9 @@ function App() {
   return (
     
     <div className="overflow-x-hidden">
-       {/* <button
-  onClick={() => setLoading(true)}
-  className="p-2 bg-blue-500 text-white rounded"
->
-  Show Loader
-</button> */}
-      {loading ? (
+      {/* {loading ? (
         <CarLoader />
-      ) : (
+      ) : ( */}
         <>
           <Navbar theme={theme} setTheme={setTheme} />
           <Routes>
@@ -73,7 +67,7 @@ function App() {
           </Routes>
           <Footer />
         </>
-        )} 
+       {/* )}  */}
     </div>
   );
 }
