@@ -1,6 +1,6 @@
 import React from "react";
 import CarPng from "../assets/images/aboutus.jpg";
-import oceanview from "../assets/images/image25.jpg";
+import oceanview from "../assets/images/image27.jpg";
 import { FaPhone, FaWhatsapp } from "react-icons/fa";
 
 const About = ({ theme }) => {
@@ -9,11 +9,11 @@ const About = ({ theme }) => {
       className={
         theme == "dark"
           ? " relative dark:bg-black pt-32 pb-10"
-          : "relative dark:bg-dark bg-gradient-to-b z-1 from-orange-50 to-white  pt-32 pb-10"
+          : "relative dark:bg-dark bg-gradient-to-b z-1 from-orange-50 to-white pb-10"
       }
     >
       {/* Hero Section */}
-      <div className="relative overflow-hidden h-[270px]">
+      <div className="relative overflow-hidden h-[390px] sm:h-[450px] md:h-[500px] lg:h-[550px] xl:h-[500px]">
         <div
           className="absolute inset-0 bg-cover bg-center opacity-80"
           style={{
@@ -23,19 +23,19 @@ const About = ({ theme }) => {
         >
           <div className="absolute inset-0 bg-gradient-to-b from-black/20 to-black/60"></div>
         </div>
-        <div className="relative z-10 text-center py-12 px-4 max-w-6xl mx-auto">
-          <h1 className="text-4xl sm:text-4xl text-orange-100 font-extrabold tracking-wide font-serif mb-4">
+        <div className="relative z-10 text-center pt-28 sm:pt-36 px-4 max-w-6xl mx-auto">
+          <h1 className="text-2xl sm:text-4xl md:text-5xl lg:text-5xl text-orange-100 font-extrabold tracking-wide font-serif py-4 sm:py-4 mb-4 sm:mb-10 leading-tight">
             Feel your journey with RS Goa Car Rentals!
           </h1>
-          <h2 className="text-1xl text-gray-50 mb-4 leading-relaxed">
+          <h2 className="text-base sm:text-lg md:text-xl text-gray-50 mb-6 sm:mb-8 leading-relaxed">
             Self Drive
           </h2>
-          <h2 className="text-1xl text-gray-50 mb-4 leading-relaxed">
+          <h2 className="text-base sm:text-lg md:text-xl text-gray-50 mb-6 sm:mb-8 leading-relaxed">
             Car Rental in Goa
           </h2>
           <a
             href="tel:+918104535322"
-            className="bg-gradient-to-r from-orange-500 to-orange-400 text-white px-6 py-2 rounded-full text-lg font-semibold hover:from-orange-600 hover:to-orange-500 shadow-md transition"
+            className="bg-gradient-to-r from-orange-500 to-orange-400 text-white px-5 sm:px-6 py-2 sm:py-3 rounded-full text-base sm:text-lg font-semibold hover:from-orange-600 hover:to-orange-500 shadow-md transition"
           >
             Call Now <FaPhone className="inline-block ml-2" />
           </a>
