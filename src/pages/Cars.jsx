@@ -394,7 +394,7 @@ const CarList = ({ theme }) => {
       <div
         className={
           theme == "dark"
-            ? "dark:bg-black dark:text-white py-6 px-22 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-10"
+            ? "dark:bg-black dark:text-white py-6 px-12 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-10"
             : "py-6 px-12 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-10"
         }
       >
