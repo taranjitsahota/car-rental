@@ -13,6 +13,17 @@ import {
   FaMapMarkerAlt,
   FaWhatsapp,
 } from "react-icons/fa";
+import {
+  Facebook,
+  X,
+  Instagram,
+  Youtube,
+  Mail,
+  Phone,
+  MapPin,
+  MessageCircle, // or PhoneCall
+} from "lucide-react";
+
 import logo from "../assets/images/logogood.png";
 import Modal from "./Modal";
 
@@ -59,14 +70,14 @@ const Navbar = ({ theme, setTheme }) => {
             href="tel:+918104535322"
             className="flex items-center space-x-1 hover:text-blue-500 transition duration-300"
           >
-            <FaPhone className="text-blue-500 text-sm" />
+            <Phone className="text-blue-500 text-sm" />
             <span>+91 81045 35322</span>
           </a>
           <a
             href="mailto:info@rscarrentalgoa.com"
             className="flex items-center space-x-1 hover:text-red-500 transition duration-300"
           >
-            <FaEnvelope className="text-red-500 text-sm" />
+            <Mail className="text-red-500 text-sm" />
             <span>info@rscarrentalgoa.com</span>
           </a>
           <a
@@ -75,7 +86,7 @@ const Navbar = ({ theme, setTheme }) => {
             rel="noopener noreferrer"
             className="flex items-center space-x-1 hover:text-green-500 transition duration-300"
           >
-            <FaWhatsapp className="text-green-500 text-sm" />
+            <MessageCircle className="text-green-500 text-sm" />
             <span>WhatsApp</span>
           </a>
         </div>
@@ -106,7 +117,7 @@ const Navbar = ({ theme, setTheme }) => {
         >
           {[
             { icon: FaFacebook, color: "text-blue-600" },
-            { icon: FaTwitter, color: "text-blue-400" },
+            { icon: X, color: "text-black-400" },
             { icon: FaInstagram, color: "text-pink-500" },
             { icon: FaYoutube, color: "text-red-600" },
           ].map(({ icon: Icon, color }, index) => (

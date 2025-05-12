@@ -26,6 +26,11 @@ import venue from "../assets/indiancars/venue.png";
 import mercedes from "../assets/indiancars/mercedes.png";
 
 import { FaPhone, FaCalendarAlt, FaWhatsapp } from "react-icons/fa";
+import {
+
+  Phone,
+
+} from "lucide-react";
 
 const carList = [
   {
@@ -395,7 +400,7 @@ const CarList = ({ theme }) => {
             href="tel:+918104535322"
             className="bg-gradient-to-r from-orange-500 to-orange-400 text-white px-5 sm:px-6 py-2 sm:py-3 rounded-full text-base sm:text-lg font-semibold hover:from-orange-600 hover:to-orange-500 shadow-md transition"
           >
-            Call Now <FaPhone className="inline-block ml-2" />
+         <Phone className="inline-block ml-2" />   Call Now 
           </a>
         </div>
       </div>

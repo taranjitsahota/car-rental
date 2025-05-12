@@ -17,7 +17,12 @@ import wagonR from "../assets/indiancars/wagonR.png";
 import swift from "../assets/indiancars/swift.png";
 import baleno from "../assets/indiancars/baleno.webp";
 import { FaPhone, FaWhatsapp } from "react-icons/fa";
+import {
+ 
+  Phone,
 
+  MessageCircle, // or PhoneCall
+} from "lucide-react";
 const Home = ({ theme }) => {
   const [isModalOpen, setModalOpen] = useState(false);
 
@@ -208,7 +213,7 @@ const Home = ({ theme }) => {
               href="tel:+918104535322"
               className="w-full sm:w-auto flex items-center justify-center gap-2 bg-orange-500 hover:bg-orange-600 text-white py-3 px-6 rounded-xl font-semibold shadow-lg hover:shadow-xl transition duration-300"
             >
-              <FaPhone className="text-white text-lg" />
+              <Phone className="text-white text-lg" />
               Call Now
             </a>
             <a

@@ -2,6 +2,9 @@ import React from "react";
 import CarPng from "../assets/images/aboutus.jpg";
 import oceanview from "../assets/images/image27.jpg";
 import { FaPhone, FaWhatsapp } from "react-icons/fa";
+import {
+  Phone,
+} from "lucide-react";
 
 const About = ({ theme }) => {
   return (
@@ -37,7 +40,7 @@ const About = ({ theme }) => {
             href="tel:+918104535322"
             className="bg-gradient-to-r from-orange-500 to-orange-400 text-white px-5 sm:px-6 py-2 sm:py-3 rounded-full text-base sm:text-lg font-semibold hover:from-orange-600 hover:to-orange-500 shadow-md transition"
           >
-            Call Now <FaPhone className="inline-block ml-2" />
+         <Phone className="inline-block ml-2" />   Call Now 
           </a>
         </div>
       </div>

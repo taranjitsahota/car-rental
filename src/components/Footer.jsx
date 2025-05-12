@@ -6,7 +6,15 @@ import {
   FaInstagram,
   FaYoutube,
 } from "react-icons/fa";
+import {
 
+  X,
+
+  Mail,
+  Phone,
+  MapPin,
+  MessageCircle, // or PhoneCall
+} from "lucide-react";
 const Footer = () => {
   return (
     <footer className="bg-gray-800 text-white py-10">
@@ -36,7 +44,7 @@ const Footer = () => {
                         <FaFacebook />
                       </a>
                       <a href="#" className="bg-gray-700 hover:bg-gray-600 rounded-full w-10 h-10 flex items-center justify-center  p-1 transition duration-300">
-                        <FaTwitter />
+                        <X />
                       </a>
                       <a href="#" className="bg-gray-700 hover:bg-gray-600 rounded-full w-10 h-10 flex items-center justify-center  p-1 transition duration-300">
                         <FaInstagram />
