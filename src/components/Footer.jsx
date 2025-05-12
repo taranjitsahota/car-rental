@@ -11,7 +11,7 @@ const Footer = () => {
   return (
     <footer className="bg-gray-800 text-white py-10">
       <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className="footer-section">
             <h3 className="text-lg font-semibold mb-4 border-b border-gray-600 pb-2">Quick Links</h3>
             <ul className="list-none p-0">
@@ -47,14 +47,14 @@ const Footer = () => {
                     </div>
           </div>
 
-          <div className="footer-section">
+          {/* <div className="footer-section">
             <h3 className="text-lg font-semibold mb-4 border-b border-gray-600 pb-2">Newsletter</h3>
             <p className="text-gray-300 mb-4">Subscribe to our newsletter for exclusive deals and updates.</p>
             <form className="flex">
               <input type="email" placeholder="Enter your email" className="bg-gray-700 text-white rounded-l-md p-2 w-3/4 focus:outline-none" />
               <button type="button" className="bg-blue-600 hover:bg-blue-700 text-white rounded-r-md p-2 w-1/2">Subscribe</button>
             </form>
-          </div>
+          </div> */}
         </div>
       </div>
       <div className="text-center mt-8 border-t border-gray-600 pt-8">

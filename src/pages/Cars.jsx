@@ -29,6 +29,16 @@ import { FaPhone, FaCalendarAlt, FaWhatsapp } from "react-icons/fa";
 
 const carList = [
   {
+    name: "WagonR",
+    image: wagonR,
+    Manual: "900/-",
+    Automatic: "1100/-",
+    Fueltype: "Petrol/Diesel",
+    Transmission: "Auto/Manual",
+    Passengers: "5 Person",
+    aosDelay: "0",
+  },
+  {
     name: "Swift",
     image: swift,
     Manual: "1100/-",
@@ -49,10 +59,61 @@ const carList = [
     aosDelay: "0",
   },
   {
-    name: "WagonR",
-    image: wagonR,
-    Manual: "900/-",
-    Automatic: "1100/-",
+    name: "I20",
+    image: i20,
+    Manual: "1200/-",
+    Automatic: "1500/-",
+    Fueltype: "Petrol/Diesel",
+    Transmission: "Auto/Manual",
+    Passengers: "5 Person",
+    aosDelay: "0",
+  },
+  {
+    name: "Ertiga",
+    image: Ertiga,
+    Manual: "1100/-",
+    Automatic: "1400/-",
+    Fueltype: "Petrol/Diesel",
+    Transmission: "Auto/Manual",
+    Passengers: "5 Person",
+    aosDelay: "0",
+  },
+  {
+    name: "Innova",
+    image: innova,
+    Manual: "2000/-",
+    Automatic: "3000/-",
+    Fueltype: "Petrol/Diesel",
+    Transmission: "Auto/Manual",
+    Passengers: "5 Person",
+    aosDelay: "0",
+  },
+  {
+    name: "Innova Crysta",
+    image: innovacrysta,
+    Manual: "2500/-",
+    Automatic: "3300/-",
+    Fueltype: "Petrol/Diesel",
+    Transmission: "Auto/Manual",
+    Passengers: "5 Person",
+    aosDelay: "0",
+  },
+  {
+    name: "Breeza",
+    image: innovacrysta,
+    Manual: "1100/-",
+    Automatic: "1400/-",
+    Fueltype: "Petrol/Diesel",
+    Transmission: "Auto/Manual",
+    Passengers: "5 Person",
+    aosDelay: "0",
+  },
+
+  {
+    name: "Venue",
+    image: venue,
+    Manual: "2000/-",
+    Automatic: "2500/-",
     Fueltype: "Petrol/Diesel",
     Transmission: "Auto/Manual",
     Passengers: "5 Person",
@@ -69,10 +130,51 @@ const carList = [
     aosDelay: "0",
   },
   {
-    name: "Venue",
-    image: venue,
+    name: "Creta",
+    image: creta,
     Manual: "2000/-",
-    Automatic: "2500/-",
+    Automatic: "3000/-",
+    Fueltype: "Petrol/Diesel",
+    Transmission: "Auto/Manual",
+    Passengers: "5 Person",
+    aosDelay: "0",
+  },
+  {
+    name: "Alcazar",
+    image: alcazar,
+    Manual: "3500/-",
+    Automatic: "4000/-",
+    Fueltype: "Petrol/Diesel",
+    Transmission: "Auto/Manual",
+    Passengers: "5 Person",
+    aosDelay: "0",
+  },
+  {
+    name: "Innova Hycross",
+    image: innovahycross,
+    Manual: "3500/-",
+    Automatic: "4000/-",
+    Fueltype: "Petrol/Diesel",
+    Transmission: "Auto/Manual",
+    Passengers: "5 Person",
+    aosDelay: "0",
+  },
+
+  {
+    name: "MG Hector",
+    image: mghector,
+    Manual: "3500/-",
+    Automatic: "4500/-",
+    Fueltype: "Petrol/Diesel",
+    Transmission: "Auto/Manual",
+    Passengers: "5 Person",
+    aosDelay: "0",
+  },
+  {
+    name: "Fortuner",
+    image: fortuner,
+    Manual: "4000/-",
+    Automatic: "5000/-",
     Fueltype: "Petrol/Diesel",
     Transmission: "Auto/Manual",
     Passengers: "5 Person",
@@ -118,16 +220,7 @@ const carList = [
     Passengers: "5 Person",
     aosDelay: "0",
   },
-  {
-    name: "I20",
-    image: i20,
-    Manual: "1200/-",
-    Automatic: "1500/-",
-    Fueltype: "Petrol/Diesel",
-    Transmission: "Auto/Manual",
-    Passengers: "5 Person",
-    aosDelay: "0",
-  },
+
   {
     name: "Honda City",
     image: hondacity,
@@ -138,89 +231,10 @@ const carList = [
     Passengers: "5 Person",
     aosDelay: "0",
   },
+
   {
-    name: "Creta",
-    image: creta,
-    Manual: "2000/-",
-    Automatic: "3000/-",
-    Fueltype: "Petrol/Diesel",
-    Transmission: "Auto/Manual",
-    Passengers: "5 Person",
-    aosDelay: "0",
-  },
-  {
-    name: "MG Hector",
-    image: mghector,
-    Manual: "3500/-",
-    Automatic: "4500/-",
-    Fueltype: "Petrol/Diesel",
-    Transmission: "Auto/Manual",
-    Passengers: "5 Person",
-    aosDelay: "0",
-  },
-  {
-    name: "Alcazar",
-    image: alcazar,
-    Manual: "3500/-",
-    Automatic: "4000/-",
-    Fueltype: "Petrol/Diesel",
-    Transmission: "Auto/Manual",
-    Passengers: "5 Person",
-    aosDelay: "0",
-  },
-  {
-    name: "Ertiga",
-    image: Ertiga,
-    Manual: "1100/-",
-    Automatic: "1400/-",
-    Fueltype: "Petrol/Diesel",
-    Transmission: "Auto/Manual",
-    Passengers: "5 Person",
-    aosDelay: "0",
-  },
-  {
-    name: "Fortuner",
-    image: fortuner,
-    Manual: "4000/-",
-    Automatic: "5000/-",
-    Fueltype: "Petrol/Diesel",
-    Transmission: "Auto/Manual",
-    Passengers: "5 Person",
-    aosDelay: "0",
-  },
-  {
-    name: "Innova",
-    image: innova,
-    Manual: "2000/-",
-    Automatic: "3000/-",
-    Fueltype: "Petrol/Diesel",
-    Transmission: "Auto/Manual",
-    Passengers: "5 Person",
-    aosDelay: "0",
-  },
-  {
-    name: "Innova Hycross",
-    image: innovahycross,
-    Manual: "3500/-",
-    Automatic: "4000/-",
-    Fueltype: "Petrol/Diesel",
-    Transmission: "Auto/Manual",
-    Passengers: "5 Person",
-    aosDelay: "0",
-  },
-  {
-    name: "Innova Crysta",
-    image: innovacrysta,
-    Manual: "2500/-",
-    Automatic: "3300/-",
-    Fueltype: "Petrol/Diesel",
-    Transmission: "Auto/Manual",
-    Passengers: "5 Person",
-    aosDelay: "0",
-  },
-  {
-    name: "Mercedes-Benz-CLA",
-    image: mercedes,
+    name: "Audi A4",
+    image: audi,
     Manual: "13000/-",
     Automatic: "16000/-",
     Fueltype: "Petrol/Diesel",
@@ -229,8 +243,8 @@ const carList = [
     aosDelay: "0",
   },
   {
-    name: "Audi A4",
-    image: audi,
+    name: "Mercedes-Benz-CLA",
+    image: mercedes,
     Manual: "13000/-",
     Automatic: "16000/-",
     Fueltype: "Petrol/Diesel",
@@ -394,8 +408,8 @@ const CarList = ({ theme }) => {
       <div
         className={
           theme == "dark"
-            ? "dark:bg-black dark:text-white py-6 px-12 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-10"
-            : "py-6 px-12 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-10"
+            ? "dark:bg-black dark:text-white py-6 px-12 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-15 cursor-pointer"
+            : "py-6 px-12 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-15 cursor-pointer"
         }
       >
         {carList.map((data) => (
@@ -407,11 +421,11 @@ const CarList = ({ theme }) => {
                 : `border border-gray-200 bg-white/80 shadow-2xl rounded-2xl overflow-hidden transition-transform transform hover:scale-105 hover:ring-2 hover:ring-orange-400 duration-500`
             }
           >
-            <div className="relative overflow-hidden">
+            <div className="relative overflow-hidden p-8">
               <img
                 src={data.image}
                 alt={data.name}
-                className="w-full h-56 object-cover transition-transform duration-700 rounded-t-2xl hover:scale-110"
+                className="w-full h-48 object-contain transition-transform duration-500 rounded-t-2xl hover:scale-105"
               />
               <span className="absolute top-4 left-4 bg-gradient-to-r from-orange-500 via-pink-500 to-red-400 text-white px-4 py-1 rounded-full text-sm font-semibold shadow-xl">
                 ₹ {data.Manual}
@@ -422,63 +436,77 @@ const CarList = ({ theme }) => {
               <h1
                 className={
                   theme === "dark"
-                    ? `text-white font-semibold text-xl mb-3`
-                    : "text-orange-700 font-semibold text-xl mb-3"
+                    ? `text-white font-semibold text-xl mb-3 text-center`
+                    : "text-orange-700 font-semibold text-xl mb-3 text-center"
                 }
               >
                 {data.name}
               </h1>
 
-              <div className="grid grid-cols-2 gap-4 text-gray-700 text-base font-medium">
-                <div className="flex items-center gap-2">
-                  <span className="text-orange-600">⚙️</span>
-                  <p
-                    className={
-                      theme === "dark" ? `text-gray-200` : "text-black"
-                    }
-                  >
-                    Transmission: {data.Transmission}
-                  </p>
+              <div className="grid grid-cols-2 gap-2 text-base font-medium mt-4">
+                <div className="text-gray-500 dark:text-gray-300 text-left">
+                  Transmission
                 </div>
-                <div className="flex items-center gap-2">
-                  <span className="text-orange-600">⛽</span>
-                  <p
-                    className={
-                      theme === "dark" ? `text-gray-200` : "text-black"
-                    }
-                  >
-                    Fuel: {data.Fueltype}
-                  </p>
+                <div
+                  className={
+                    theme === "dark"
+                      ? `text-gray-100 text-right`
+                      : "text-black text-right"
+                  }
+                >
+                  {data.Transmission}
                 </div>
-                <div className="flex items-center gap-2">
-                  <span className="text-orange-600">🚗</span>
-                  <p
-                    className={
-                      theme === "dark" ? `text-gray-200` : "text-black"
-                    }
-                  >
-                    Manual: ₹{data.Manual}
-                  </p>
+
+                <div className="text-gray-500 dark:text-gray-300 text-left">
+                  Fuel Type
                 </div>
-                <div className="flex items-center gap-2">
-                  <span className="text-orange-600">🔧</span>
-                  <p
-                    className={
-                      theme === "dark" ? `text-gray-200` : "text-black"
-                    }
-                  >
-                    Automatic: ₹{data.Automatic}
-                  </p>
+                <div
+                  className={
+                    theme === "dark"
+                      ? `text-gray-100 text-right`
+                      : "text-black text-right"
+                  }
+                >
+                  {data.Fueltype}
                 </div>
-                <div className="flex items-center gap-2">
-                  <span className="text-orange-600">👥</span>
-                  <p
-                    className={
-                      theme === "dark" ? `text-gray-200` : "text-black"
-                    }
-                  >
-                    Seats: {data.Passengers}
-                  </p>
+
+                <div className="text-gray-500 dark:text-gray-300 text-left">
+                  Manual
+                </div>
+                <div
+                  className={
+                    theme === "dark"
+                      ? `text-gray-100 text-right`
+                      : "text-black text-right"
+                  }
+                >
+                  ₹{data.Manual}
+                </div>
+
+                <div className="text-gray-500 dark:text-gray-300 text-left">
+                  Automatic
+                </div>
+                <div
+                  className={
+                    theme === "dark"
+                      ? `text-gray-100 text-right`
+                      : "text-black text-right"
+                  }
+                >
+                  ₹{data.Automatic}
+                </div>
+
+                <div className="text-gray-500 dark:text-gray-300 text-left">
+                  Seats
+                </div>
+                <div
+                  className={
+                    theme === "dark"
+                      ? `text-gray-100 text-right`
+                      : "text-black text-right"
+                  }
+                >
+                  {data.Passengers}
                 </div>
               </div>
 
