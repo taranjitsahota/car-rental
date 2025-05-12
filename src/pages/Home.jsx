@@ -13,6 +13,9 @@ import "slick-carousel/slick/slick-theme.css";
 import { useNavigate } from "react-router-dom";
 import Modal from "../components/Modal";
 import CountUp from "react-countup";
+import wagonR from "../assets/indiancars/wagonR.png";
+import swift from "../assets/indiancars/swift.png";
+import baleno from "../assets/indiancars/baleno.webp";
 import { FaPhone, FaWhatsapp } from "react-icons/fa";
 
 const Home = ({ theme }) => {
@@ -123,36 +126,36 @@ const Home = ({ theme }) => {
   };
 
   const carList = [
-    {
-      name: "I20",
-      image: i20,
-      Manual: "1200/-",
-      Automatic: "1500/-",
-      Fueltype: "Petrol/Diesel",
-      Transmission: "Auto/Manual",
-      Passengers: "5 Person",
-      aosDelay: "0",
-    },
-    {
-      name: "Thar",
-      image: thar,
-      Manual: "3000/-",
-      Automatic: "3500/-",
-      Fueltype: "Petrol/Diesel",
-      Transmission: "Auto/Manual",
-      Passengers: "5 Person",
-      aosDelay: "0",
-    },
-    {
-      name: "Fortuner",
-      image: fortuner,
-      Manual: "4000/-",
-      Automatic: "5000/-",
-      Fueltype: "Petrol/Diesel",
-      Transmission: "Auto/Manual",
-      Passengers: "5 Person",
-      aosDelay: "0",
-    },
+   {
+       name: "WagonR",
+       image: wagonR,
+       Manual: "900/-",
+       Automatic: "1100/-",
+       Fueltype: "Petrol/Diesel",
+       Transmission: "Auto/Manual",
+       Passengers: "5 Person",
+       aosDelay: "0",
+     },
+     {
+       name: "Swift",
+       image: swift,
+       Manual: "1100/-",
+       Automatic: "1400/-",
+       Fueltype: "Petrol/Diesel",
+       Transmission: "Auto/Manual",
+       Passengers: "5 Person",
+       aosDelay: "0",
+     },
+     {
+       name: "Baleno",
+       image: baleno,
+       Manual: "1200/-",
+       Automatic: "1500/-",
+       Fueltype: "Petrol/Diesel",
+       Transmission: "Auto/Manual",
+       Passengers: "5 Person",
+       aosDelay: "0",
+     },
   ];
 
   useEffect(() => {
