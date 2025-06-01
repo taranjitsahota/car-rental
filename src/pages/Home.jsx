@@ -441,7 +441,7 @@ const Home = ({ theme }) => {
             className={
               theme === "dark"
                 ? `text-4xl font-extrabold text-white mb-8`
-                : "text-4xl font-extrabold text-gray-900 dark:text-white mb-8"
+                : "text-4xl font-extrabold text-gray-900 mb-8"
             }
             data-aos="fade-up"
           >
@@ -642,7 +642,7 @@ const Home = ({ theme }) => {
             className={
               theme == "dark"
                 ? `text-4xl font-extrabold text-white mb-12`
-                : "text-4xl font-extrabold text-gray-900 dark:text-white mb-12"
+                : "text-4xl font-extrabold text-gray-900 mb-12"
             }
             data-aos="fade-up"
           >
