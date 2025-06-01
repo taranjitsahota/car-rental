@@ -15,7 +15,7 @@ import Modal from "../components/Modal";
 import CountUp from "react-countup";
 import wagonR from "../assets/indiancars/wagonR.png";
 import swift from "../assets/indiancars/swift.png";
-import baleno from "../assets/indiancars/baleno.webp";
+import baleno from "../assets/indiancars/baleno.jpg";
 import { FaPhone, FaWhatsapp } from "react-icons/fa";
 import {
  

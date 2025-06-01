@@ -3,19 +3,19 @@ import whiteCar from "../assets/images/image8.jpg";
 import oceanview from "../assets/images/image27.jpg";
 import hondacity from "../assets/indiancars/hondacity.webp";
 import fortuner from "../assets/indiancars/fortuner.png";
-import Ertiga from "../assets/indiancars/Ertiga.webp";
+import Ertiga from "../assets/indiancars/Ertiga.jpg";
 import creta from "../assets/indiancars/creta.png";
 import bmw from "../assets/indiancars/bmw.webp";
-import baleno from "../assets/indiancars/baleno.webp";
-import audi from "../assets/indiancars/audi.webp";
+import baleno from "../assets/indiancars/baleno.jpg";
+import audi from "../assets/indiancars/audi.jpg";
 import alcazar from "../assets/indiancars/alcazar.png";
 import thar from "../assets/indiancars/thar.png";
 import swift from "../assets/indiancars/swift.png";
 import mghector from "../assets/indiancars/mg-hector.png";
 import kia from "../assets/indiancars/kia.png";
 import innovahycross from "../assets/indiancars/innova-hycross.png";
-import innovacrysta from "../assets/indiancars/innova-crysta.webp";
-import innovacrysta1 from "../assets/indiancars/innova-crysta.png";
+import innovacrysta from "../assets/indiancars/innova-crysta.png";
+import breeza from "../assets/indiancars/breeza.webp";
 import innova from "../assets/indiancars/innova.png";
 import i20 from "../assets/indiancars/i20.png";
 import i10grand from "../assets/indiancars/i10grand.webp";
@@ -26,20 +26,16 @@ import venue from "../assets/indiancars/venue.png";
 import mercedes from "../assets/indiancars/mercedes.png";
 
 import { FaPhone, FaCalendarAlt, FaWhatsapp } from "react-icons/fa";
-import {
-
-  Phone,
-
-} from "lucide-react";
+import { Phone } from "lucide-react";
 
 const carList = [
   {
     name: "WagonR",
     image: wagonR,
     Manual: "900/-",
-    Automatic: "1100/-",
+    // Automatic: "1100/-",
     Fueltype: "Petrol/Diesel",
-    Transmission: "Auto/Manual",
+    Transmission: "Manual",
     Passengers: "5 Person",
     aosDelay: "0",
   },
@@ -76,38 +72,38 @@ const carList = [
   {
     name: "Ertiga",
     image: Ertiga,
-    Manual: "1100/-",
-    Automatic: "1400/-",
+    Manual: "1900/-",
+    Automatic: "2400/-",
     Fueltype: "Petrol/Diesel",
     Transmission: "Auto/Manual",
-    Passengers: "5 Person",
+    Passengers: "7 Person",
     aosDelay: "0",
   },
   {
     name: "Innova",
     image: innova,
-    Manual: "2000/-",
-    Automatic: "3000/-",
+    Manual: "1900/-",
+    // Automatic: "3000/-",
     Fueltype: "Petrol/Diesel",
-    Transmission: "Auto/Manual",
-    Passengers: "5 Person",
+    Transmission: "Manual",
+    Passengers: "7 Person",
     aosDelay: "0",
   },
   {
     name: "Innova Crysta",
     image: innovacrysta,
-    Manual: "2500/-",
-    Automatic: "3300/-",
+    Manual: "2600/-",
+    Automatic: "3000/-",
     Fueltype: "Petrol/Diesel",
     Transmission: "Auto/Manual",
-    Passengers: "5 Person",
+    Passengers: "7 Person",
     aosDelay: "0",
   },
   {
     name: "Breeza",
-    image: innovacrysta,
-    Manual: "1100/-",
-    Automatic: "1400/-",
+    image: breeza,
+    Manual: "2000/-",
+    Automatic: "2500/-",
     Fueltype: "Petrol/Diesel",
     Transmission: "Auto/Manual",
     Passengers: "5 Person",
@@ -145,44 +141,44 @@ const carList = [
     aosDelay: "0",
   },
   {
-    name: "Alcazar",
+    name: "Alcazar (Panaromic Sunroof)",
     image: alcazar,
-    Manual: "3500/-",
-    Automatic: "4000/-",
+    // Manual: "3500/-",
+    Automatic: "3000/-",
     Fueltype: "Petrol/Diesel",
-    Transmission: "Auto/Manual",
+    Transmission: "Automatic",
     Passengers: "5 Person",
     aosDelay: "0",
   },
   {
     name: "Innova Hycross",
     image: innovahycross,
-    Manual: "3500/-",
-    Automatic: "4000/-",
+    // Manual: "3500/-",
+    Automatic: "3000/-",
     Fueltype: "Petrol/Diesel",
-    Transmission: "Auto/Manual",
-    Passengers: "5 Person",
+    Transmission: "Automatic",
+    Passengers: "7 Person",
     aosDelay: "0",
   },
 
   {
     name: "MG Hector (Panaromic Sunroof)",
     image: mghector,
-    Manual: "3500/-",
+    // Manual: "3000/-",
     Automatic: "4500/-",
     Fueltype: "Petrol/Diesel",
-    Transmission: "Auto/Manual",
-    Passengers: "5 Person",
+    Transmission: "Automatic",
+    Passengers: "7 Person",
     aosDelay: "0",
   },
   {
     name: "Fortuner",
     image: fortuner,
-    Manual: "4000/-",
+    // Manual: "4500/-",
     Automatic: "5000/-",
     Fueltype: "Petrol/Diesel",
-    Transmission: "Auto/Manual",
-    Passengers: "5 Person",
+    Transmission: "Automatic",
+    Passengers: "7 Person",
     aosDelay: "0",
   },
   // {
@@ -240,20 +236,20 @@ const carList = [
   {
     name: "Audi A4",
     image: audi,
-    Manual: "13000/-",
+    // Manual: "13000/-",
     Automatic: "16000/-",
     Fueltype: "Petrol/Diesel",
-    Transmission: "Auto/Manual",
+    Transmission: "Automatic",
     Passengers: "5 Person",
     aosDelay: "0",
   },
   {
     name: "Mercedes-Benz-CLA",
     image: mercedes,
-    Manual: "13000/-",
+    // Manual: "13000/-",
     Automatic: "16000/-",
     Fueltype: "Petrol/Diesel",
-    Transmission: "Auto/Manual",
+    Transmission: "Automatic",
     Passengers: "5 Person",
     aosDelay: "0",
   },
@@ -400,7 +396,7 @@ const CarList = ({ theme }) => {
             href="tel:+918104535322"
             className="bg-gradient-to-r from-orange-500 to-orange-400 text-white px-5 sm:px-6 py-2 sm:py-3 rounded-full text-base sm:text-lg font-semibold hover:from-orange-600 hover:to-orange-500 shadow-md transition"
           >
-         <Phone className="inline-block ml-2" />   Call Now 
+            <Phone className="inline-block ml-2" /> Call Now
           </a>
         </div>
       </div>
@@ -433,7 +429,7 @@ const CarList = ({ theme }) => {
                 className="w-full h-48 object-contain transition-transform duration-500 rounded-t-2xl hover:scale-105"
               />
               <span className="absolute top-4 left-4 bg-gradient-to-r from-orange-500 via-pink-500 to-red-400 text-white px-4 py-1 rounded-full text-sm font-semibold shadow-xl">
-                ₹ {data.Manual}
+                ₹ {data.Manual ? data.Manual : data.Automatic}
               </span>
             </div>
 
@@ -475,31 +471,41 @@ const CarList = ({ theme }) => {
                   {data.Fueltype}
                 </div>
 
-                <div className="text-gray-500 dark:text-gray-300 text-left">
-                  Manual
-                </div>
-                <div
-                  className={
-                    theme === "dark"
-                      ? `text-gray-100 text-right`
-                      : "text-black text-right"
-                  }
-                >
-                  ₹{data.Manual}
-                </div>
+                {/* Manual (conditionally shown) */}
+                {data.Manual && (
+                  <>
+                    <div className="text-gray-500 dark:text-gray-300 text-left">
+                      Manual
+                    </div>
+                    <div
+                      className={
+                        theme === "dark"
+                          ? "text-gray-100 text-right"
+                          : "text-black text-right"
+                      }
+                    >
+                      ₹{data.Manual}
+                    </div>
+                  </>
+                )}
 
-                <div className="text-gray-500 dark:text-gray-300 text-left">
-                  Automatic
-                </div>
-                <div
-                  className={
-                    theme === "dark"
-                      ? `text-gray-100 text-right`
-                      : "text-black text-right"
-                  }
-                >
-                  ₹{data.Automatic}
-                </div>
+                {/* Automatic (conditionally shown) */}
+                {data.Automatic && (
+                  <>
+                    <div className="text-gray-500 dark:text-gray-300 text-left">
+                      Automatic
+                    </div>
+                    <div
+                      className={
+                        theme === "dark"
+                          ? "text-gray-100 text-right"
+                          : "text-black text-right"
+                      }
+                    >
+                      ₹{data.Automatic}
+                    </div>
+                  </>
+                )}
 
                 <div className="text-gray-500 dark:text-gray-300 text-left">
                   Seats
@@ -519,7 +525,7 @@ const CarList = ({ theme }) => {
                 <p
                   className={theme === "dark" ? `text-gray-200` : "text-black"}
                 >
-                  ₹ {data.Manual} Day
+                  ₹ {data.Manual ? data.Manual : data.Automatic} Day
                 </p>
               </div>
 
