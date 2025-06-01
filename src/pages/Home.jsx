@@ -451,7 +451,7 @@ const Home = ({ theme }) => {
             className={
               theme === "dark"
                 ? `text-white text-lg max-w-2xl mx-auto mb-6`
-                : "text-lg text-gray-800 dark:text-gray-200 max-w-2xl mx-auto mb-6"
+                : "text-lg text-gray-800 max-w-2xl mx-auto mb-6"
             }
             data-aos="fade-up"
           >
