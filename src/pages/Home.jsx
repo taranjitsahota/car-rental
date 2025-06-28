@@ -18,9 +18,7 @@ import swift from "../assets/indiancars/swift.png";
 import baleno from "../assets/indiancars/baleno.jpg";
 import { FaPhone, FaWhatsapp } from "react-icons/fa";
 import {
- 
   Phone,
-
   MessageCircle, // or PhoneCall
 } from "lucide-react";
 const Home = ({ theme }) => {
@@ -131,36 +129,36 @@ const Home = ({ theme }) => {
   };
 
   const carList = [
-   {
-       name: "WagonR",
-       image: wagonR,
-       Manual: "900/-",
-       Automatic: "1100/-",
-       Fueltype: "Petrol/Diesel",
-       Transmission: "Auto/Manual",
-       Passengers: "5 Person",
-       aosDelay: "0",
-     },
-     {
-       name: "Swift",
-       image: swift,
-       Manual: "1100/-",
-       Automatic: "1400/-",
-       Fueltype: "Petrol/Diesel",
-       Transmission: "Auto/Manual",
-       Passengers: "5 Person",
-       aosDelay: "0",
-     },
-     {
-       name: "Baleno",
-       image: baleno,
-       Manual: "1200/-",
-       Automatic: "1500/-",
-       Fueltype: "Petrol/Diesel",
-       Transmission: "Auto/Manual",
-       Passengers: "5 Person",
-       aosDelay: "0",
-     },
+    {
+      name: "WagonR",
+      image: wagonR,
+      Manual: "900/-",
+      //  Automatic: "1100/-",
+      Fueltype: "Petrol/Diesel",
+      Transmission: "Auto/Manual",
+      Passengers: "5 Person",
+      aosDelay: "0",
+    },
+    {
+      name: "Swift",
+      image: swift,
+      Manual: "1000/-",
+      Automatic: "1300/-",
+      Fueltype: "Petrol/Diesel",
+      Transmission: "Auto/Manual",
+      Passengers: "5 Person",
+      aosDelay: "0",
+    },
+    {
+      name: "Baleno",
+      image: baleno,
+      Manual: "1100/-",
+      Automatic: "1400/-",
+      Fueltype: "Petrol/Diesel",
+      Transmission: "Auto/Manual",
+      Passengers: "5 Person",
+      aosDelay: "0",
+    },
   ];
 
   useEffect(() => {
@@ -210,14 +208,14 @@ const Home = ({ theme }) => {
           </p>
           <div className="container mx-auto px-4 flex flex-col sm:flex-row items-center justify-center gap-4 py-4">
             <a
-              href="tel:+918104535322"
+              href="tel:+917506494862"
               className="w-full sm:w-auto flex items-center justify-center gap-2 bg-orange-500 hover:bg-orange-600 text-white py-3 px-6 rounded-xl font-semibold shadow-lg hover:shadow-xl transition duration-300"
             >
               <Phone className="text-white text-lg" />
               Call Now
             </a>
             <a
-              href="https://wa.me/918104535322"
+              href="https://wa.me/917506494862"
               target="_blank"
               rel="noopener noreferrer"
               className="w-full sm:w-auto flex items-center justify-center gap-2 bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white py-3 px-6 rounded-xl font-semibold shadow-lg hover:shadow-xl transition duration-300"
@@ -339,18 +337,22 @@ const Home = ({ theme }) => {
                       ₹{data.Manual}
                     </div>
 
-                    <div className="text-gray-500 dark:text-gray-300 text-left">
-                      Automatic
-                    </div>
-                    <div
-                      className={
-                        theme === "dark"
-                          ? `text-gray-100 text-right`
-                          : "text-black text-right"
-                      }
-                    >
-                      ₹{data.Automatic}
-                    </div>
+                    {data.Automatic && (
+                      <>
+                        <div className="text-gray-500 dark:text-gray-300 text-left">
+                          Automatic
+                        </div>
+                        <div
+                          className={
+                            theme === "dark"
+                              ? "text-gray-100 text-right"
+                              : "text-black text-right"
+                          }
+                        >
+                          ₹{data.Automatic}
+                        </div>
+                      </>
+                    )}
 
                     <div className="text-gray-500 dark:text-gray-300 text-left">
                       Seats
@@ -385,7 +387,7 @@ const Home = ({ theme }) => {
                     </a>
 
                     <a
-                      href={`https://wa.me/918104535322?text=Hi,%20I%20would%20like%20to%20inquire%20about%20the%20rental%20charges%20for%20${data.name}`}
+                      href={`https://wa.me/917506494862?text=Hi,%20I%20would%20like%20to%20inquire%20about%20the%20rental%20charges%20for%20${data.name}`}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="flex items-center gap-2 bg-green-500 text-white px-4 py-2 rounded-full shadow-md hover:bg-green-600 transition"

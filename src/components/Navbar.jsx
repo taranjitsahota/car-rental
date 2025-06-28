@@ -24,7 +24,7 @@ import {
   MessageCircle, // or PhoneCall
 } from "lucide-react";
 
-import logo from "../assets/images/logogood.png";
+import logo from "../assets/logo/picsvg_download.svg";
 import Modal from "./Modal";
 
 export const Navlinks = [
@@ -67,11 +67,11 @@ const Navbar = ({ theme, setTheme }) => {
           } flex justify-between items-center font-semibold tracking-wide rounded-md flex items-center space-x-4 py-0.2 px-8 border-b transition-all duration-300 text-xs hover:space-x-6 hover:py-1 hover:px-16 hover:scale-105 transform-gpu`}
         >
           <a
-            href="tel:+918104535322"
+            href="tel:+9175064 94862"
             className="flex items-center space-x-1 hover:text-blue-500 transition duration-300"
           >
             <Phone className="text-blue-500 text-sm" />
-            <span>+91 81045 35322</span>
+            <span>+91 75064 94862</span>
           </a>
           <a
             href="mailto:info@rscarrentalgoa.com"
@@ -81,7 +81,7 @@ const Navbar = ({ theme, setTheme }) => {
             <span>info@rscarrentalgoa.com</span>
           </a>
           <a
-            href="https://wa.me/918104535322"
+            href="https://wa.me/917506494862"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center space-x-1 hover:text-green-500 transition duration-300"

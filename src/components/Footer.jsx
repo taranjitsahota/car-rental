@@ -32,8 +32,8 @@ const Footer = () => {
 
           <div className="footer-section">
             <h3 className="text-lg font-semibold mb-4 border-b border-gray-600 pb-2">Contact Information</h3>
-            <p className="text-gray-300 mb-2">123 Car Rental Street, City, State, ZIP</p>
-            <p className="text-gray-300 mb-2">Phone: +1 (555) 123-4567</p>
+            {/* <p className="text-gray-300 mb-2">Anjuna</p> */}
+            <p className="text-gray-300 mb-2">Phone: +91 75064 94862</p>
             <p className="text-gray-300">Email: info@carrental.com</p>
           </div>
 

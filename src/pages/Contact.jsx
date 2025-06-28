@@ -75,7 +75,7 @@ const Contact = ({ theme }) => {
               </div>
               <div className="flex items-center gap-3">
                 <Phone className="text-amber-500" />
-                <span>+91 98765 43210</span>
+                <span>+91 75064 94862</span>
               </div>
               <div className="flex items-center gap-3">
                 <MapPin className="text-amber-500" />

@@ -37,7 +37,7 @@ const About = ({ theme }) => {
             Car Rental in Goa
           </h2>
           <a
-            href="tel:+918104535322"
+            href="tel:+917506494862"
             className="bg-gradient-to-r from-orange-500 to-orange-400 text-white px-5 sm:px-6 py-2 sm:py-3 rounded-full text-base sm:text-lg font-semibold hover:from-orange-600 hover:to-orange-500 shadow-md transition"
           >
          <Phone className="inline-block ml-2" />   Call Now 
@@ -111,10 +111,10 @@ const About = ({ theme }) => {
             </ul>
             <div className="relative z-10 text-center py-10 px-4 max-w-6xl mx-auto flex flex-col sm:flex-row items-center justify-center gap-6">
               <a
-                href="tel:+918828955068"
+                href="tel:+917506494862"
                 className="flex items-center justify-center w-64 sm:w-72 bg-gradient-to-r from-orange-500 to-orange-400 text-white px-2 py-1 rounded-full shadow-gold-400/50 shadow-2xl hover:scale-105 transition-all text-lg font-semibold tracking-wider border border-[#BFA046] hover:shadow-gold-500"
               >
-                Call us +918828955068{" "}
+                Call us +917506494862{" "}
                 <FaPhone className="inline-block ml-2 text-xl" />
               </a>
               <div
@@ -127,18 +127,18 @@ const About = ({ theme }) => {
                 OR
               </div>
               <a
-                href="https://wa.me/918104535322"
+                href="https://wa.me/917506494862"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center w-64 sm:w-72 bg-gradient-to-r from-green-500 to-green-600 text-white px-2 py-1 rounded-full shadow-gold-400/50 shadow-2xl hover:scale-105 transition-all text-lg font-semibold tracking-wider border border-[#BFA046] hover:shadow-gold-500"
               >
-                WhatsApp +918828955068 <FaWhatsapp className="inline-block ml-2 text-xl" />
+                WhatsApp +917506494862 <FaWhatsapp className="inline-block ml-2 text-xl" />
               </a>
             </div>
 
             {/* <button className="bg-gradient-to-r from-orange-500 to-orange-400 text-white px-6 py-4 rounded-full shadow-gold-400/50 shadow-2xl hover:scale-110 transition-all text-1xl font-extrabold tracking-wider border border-[#BFA046] hover:shadow-gold-500">
             Call Now
-            +918828955068
+            +917506494862
             </button> */}
           </div>
         </div>

@@ -42,8 +42,8 @@ const carList = [
   {
     name: "Swift",
     image: swift,
-    Manual: "1100/-",
-    Automatic: "1400/-",
+    Manual: "1000/-",
+    Automatic: "1300/-",
     Fueltype: "Petrol/Diesel",
     Transmission: "Auto/Manual",
     Passengers: "5 Person",
@@ -52,8 +52,8 @@ const carList = [
   {
     name: "Baleno",
     image: baleno,
-    Manual: "1200/-",
-    Automatic: "1500/-",
+    Manual: "1100/-",
+    Automatic: "1400/-",
     Fueltype: "Petrol/Diesel",
     Transmission: "Auto/Manual",
     Passengers: "5 Person",
@@ -62,8 +62,8 @@ const carList = [
   {
     name: "I20",
     image: i20,
-    Manual: "1200/-",
-    Automatic: "1500/-",
+    Manual: "1100/-",
+    Automatic: "1400/-",
     Fueltype: "Petrol/Diesel",
     Transmission: "Auto/Manual",
     Passengers: "5 Person",
@@ -72,8 +72,8 @@ const carList = [
   {
     name: "Ertiga",
     image: Ertiga,
-    Manual: "1900/-",
-    Automatic: "2400/-",
+    Manual: "1800/-",
+    Automatic: "2300/-",
     Fueltype: "Petrol/Diesel",
     Transmission: "Auto/Manual",
     Passengers: "7 Person",
@@ -82,7 +82,7 @@ const carList = [
   {
     name: "Innova",
     image: innova,
-    Manual: "1900/-",
+    Manual: "1800/-",
     // Automatic: "3000/-",
     Fueltype: "Petrol/Diesel",
     Transmission: "Manual",
@@ -92,7 +92,7 @@ const carList = [
   {
     name: "Innova Crysta",
     image: innovacrysta,
-    Manual: "2600/-",
+    Manual: "2500/-",
     Automatic: "3000/-",
     Fueltype: "Petrol/Diesel",
     Transmission: "Auto/Manual",
@@ -102,8 +102,8 @@ const carList = [
   {
     name: "Breeza",
     image: breeza,
-    Manual: "2000/-",
-    Automatic: "2500/-",
+    Manual: "1700/-",
+    Automatic: "2300/-",
     Fueltype: "Petrol/Diesel",
     Transmission: "Auto/Manual",
     Passengers: "5 Person",
@@ -113,8 +113,8 @@ const carList = [
   {
     name: "Venue",
     image: venue,
-    Manual: "2000/-",
-    Automatic: "2500/-",
+    Manual: "1900/-",
+    Automatic: "2000/-",
     Fueltype: "Petrol/Diesel",
     Transmission: "Auto/Manual",
     Passengers: "5 Person",
@@ -131,7 +131,7 @@ const carList = [
     aosDelay: "0",
   },
   {
-    name: "Creta",
+    name: "Creta (panaromic sunroof)",
     image: creta,
     Manual: "2000/-",
     Automatic: "3000/-",
@@ -165,7 +165,7 @@ const carList = [
     name: "MG Hector (Panaromic Sunroof)",
     image: mghector,
     // Manual: "3000/-",
-    Automatic: "4500/-",
+    Automatic: "3000/-",
     Fueltype: "Petrol/Diesel",
     Transmission: "Automatic",
     Passengers: "7 Person",
@@ -237,22 +237,22 @@ const carList = [
     name: "Audi A4",
     image: audi,
     // Manual: "13000/-",
-    Automatic: "16000/-",
+    Automatic: "6500/-",
     Fueltype: "Petrol/Diesel",
     Transmission: "Automatic",
     Passengers: "5 Person",
     aosDelay: "0",
   },
-  {
-    name: "Mercedes-Benz-CLA",
-    image: mercedes,
-    // Manual: "13000/-",
-    Automatic: "16000/-",
-    Fueltype: "Petrol/Diesel",
-    Transmission: "Automatic",
-    Passengers: "5 Person",
-    aosDelay: "0",
-  },
+  // {
+  //   name: "Mercedes-Benz-CLA",
+  //   image: mercedes,
+  //   // Manual: "13000/-",
+  //   Automatic: "16000/-",
+  //   Fueltype: "Petrol/Diesel",
+  //   Transmission: "Automatic",
+  //   Passengers: "5 Person",
+  //   aosDelay: "0",
+  // },
   // {
   //   name: "BMW 5 Series",
   //   image: bmw,
@@ -393,7 +393,7 @@ const CarList = ({ theme }) => {
             Experience the ultimate in comfort and style with our premium fleet.
           </h2>
           <a
-            href="tel:+918104535322"
+            href="tel:+917506494862"
             className="bg-gradient-to-r from-orange-500 to-orange-400 text-white px-5 sm:px-6 py-2 sm:py-3 rounded-full text-base sm:text-lg font-semibold hover:from-orange-600 hover:to-orange-500 shadow-md transition"
           >
             <Phone className="inline-block ml-2" /> Call Now
@@ -538,7 +538,7 @@ const CarList = ({ theme }) => {
                 </a>
 
                 <a
-                  href={`https://wa.me/918104535322?text=Hi,%20I%20would%20like%20to%20inquire%20about%20the%20rental%20charges%20for%20${data.name}`}
+                  href={`https://wa.me/917506494862?text=Hi,%20I%20would%20like%20to%20inquire%20about%20the%20rental%20charges%20for%20${data.name}`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-2 bg-green-500 text-white px-4 py-2 rounded-full shadow-md hover:bg-green-600 transition"
