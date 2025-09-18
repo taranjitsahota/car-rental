@@ -103,7 +103,7 @@ const Navbar = ({ theme, setTheme }) => {
             } flex justify-between items-center font-semibold tracking-wide rounded-md flex items-center space-x-4 py-0.2 px-8 border-b transition-all duration-300 text-xs hover:py-1 hover:px-[200px] hover:scale-105 transform-gpu`}
           >
             🚗 Book Now! Best & cheap Prices in Goa | Min 2 Days Prior Booking | Call: +91
-            12345 67890 🚗
+            7506494862 🚗
           </marquee>
         </div>
 

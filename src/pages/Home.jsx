@@ -800,14 +800,14 @@ const Home = ({ theme }) => {
               🚗 Book Now
             </button> */}
             <a
-              href="tel:+919876543210"
+              href="tel:+917506494862"
               className={
                 theme === "dark"
                   ? `bg-gray-800 text-white py-3 px-10 rounded-full text-lg font-bold shadow-xl transform hover:scale-105 transition-all duration-300`
                   : "bg-orange-400 text-white py-3 px-10 rounded-full text-lg font-bold shadow-xl transform hover:scale-105 transition-all duration-300"
               }
             >
-              📞 Call Us: +91 98765 43210
+              📞 Call Us: +91 75064 94862
             </a>
           </div>
         </div>
