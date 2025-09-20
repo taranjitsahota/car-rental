@@ -177,13 +177,13 @@ const Navbar = ({ theme, setTheme }) => {
           )}
 
           {/* Book Now Button */}
-          <button
+          {/* <button
             onClick={() => setModalOpen(true)}
             className={`bg-gradient-to-r cursor-pointer from-orange-500 to-red-500 text-white px-6 py-1 rounded-full font-bold shadow-lg transition-transform transform hover:scale-105 hover:shadow-xl`}
           >
             Book Now
           </button>
-          <Modal isOpen={isModalOpen} onClose={() => setModalOpen(false)} />
+          <Modal isOpen={isModalOpen} onClose={() => setModalOpen(false)} /> */}
         </nav>
 
         {/* Mobile View (Hamburger Menu & Theme Toggle) */}

@@ -618,13 +618,13 @@ const Home = ({ theme }) => {
           </div>
 
           {/* CTA Button */}
-          <button
+          {/* <button
             onClick={() => setModalOpen(true)}
             className="cursor-pointer mt-10 bg-orange-500 hover:bg-orange-700 text-white py-3 px-8 rounded-full text-lg font-semibold shadow-xl transform hover:scale-105 transition-all duration-300"
           >
             Book Your Ride Now
           </button>
-          <Modal isOpen={isModalOpen} onClose={() => setModalOpen(false)} />
+          <Modal isOpen={isModalOpen} onClose={() => setModalOpen(false)} /> */}
         </div>
       </section>
 
