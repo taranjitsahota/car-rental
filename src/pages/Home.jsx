@@ -380,7 +380,7 @@ const Home = ({ theme }) => {
 
                   <div className="flex items-center gap-4 mt-6">
                     <a
-                      href="tel:+919876543210"
+                      href="tel:+917506494862"
                       className="bg-gradient-to-r from-orange-400 to-red-400 text-white px-4 py-2 rounded-full text-sm font-semibold hover:from-orange-500 hover:to-red-500 shadow-md transition"
                     >
                       Call Now
